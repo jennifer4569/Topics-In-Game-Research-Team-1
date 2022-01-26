@@ -10,7 +10,7 @@ public class hookshot : MonoBehaviour{
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         
         if (Physics.Raycast(ray, out hit)) {
-            print(hit);
+            //print(hit);
             Vector3 objectHit = hit.point;
             GameObject.FindWithTag("Player").transform.position = objectHit;
 
