@@ -38,6 +38,8 @@ public class movement : MonoBehaviour
     {
         
 
+                cam.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1.0f,gameObject.transform.position.z);
+
      if (Input.GetMouseButtonDown(0)){ // if left button pressed...
             print("click");
             firstMoveMade = true;
@@ -45,8 +47,17 @@ public class movement : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit)){
                  Vector3 objectHit = hit.point + (hit.normal);// +  GetComponent<Collider>().bounds.size);
+<<<<<<< Updated upstream
                 
                 newCamAngle = hit.normal;
+=======
+                 //gameobject.transform.position = objectHit;
+                 print("clicked" + hit.normal + hit.normal +  GetComponent<Collider>().bounds.size);
+                GameObject.FindWithTag("me").transform.position = objectHit;
+                canMoveAgain = false;
+                //Invoke ("subReset_Player_Speed", 3);
+                cam.transform.forward = hit.normal;
+>>>>>>> Stashed changes
 
                 
                 canMoveAgain = false;
@@ -57,11 +68,18 @@ public class movement : MonoBehaviour
                 seconds = 2.0f;
                 timer = 0.0f;
             }
+<<<<<<< Updated upstream
         }
           if(Input.GetMouseButtonUp(0)){
               print("move");
                 canMoveAgain = true;    
           }
+=======
+          }else if(Input.GetMouseButtonUp(0)){
+              canMoveAgain = true;
+              
+        }
+>>>>>>> Stashed changes
 
         if(timer <= seconds){
             timer += Time.deltaTime;
