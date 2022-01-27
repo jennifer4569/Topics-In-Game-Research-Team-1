@@ -48,7 +48,7 @@ public class movement : MonoBehaviour
                 //GameObject.FindWithTag("me").transform.position = objectHit;
                 
                 
-                newCamAngle = (gameObject.transform.position - hit.point).normalized;
+                newCamAngle = hit.normal;//(gameObject.transform.position - hit.point).normalized;
                 //cam.transform.rotation = Quaternion.LookRotation (forward, Vector3.up);
 
                 
