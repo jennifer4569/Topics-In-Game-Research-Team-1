@@ -35,6 +35,7 @@ public class movement : MonoBehaviour
 
     void Update()
     {
+        
 
      if (Input.GetMouseButtonDown(0)){ // if left button pressed...
             print("click");
@@ -56,7 +57,7 @@ public class movement : MonoBehaviour
                 start = gameObject.transform.position;
                 goal = objectHit;
                 Difference = goal - start;
-                seconds = 5.0f;
+                seconds = 3.0f;
                 timer = 0.0f;
             }
         }
@@ -64,7 +65,7 @@ public class movement : MonoBehaviour
               print("move");
                 canMoveAgain = true;    
           }
-        cam.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 0.5f, gameObject.transform.position.z);
+        cam.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 0.75f, gameObject.transform.position.z);
 
         if(timer <= seconds){
             timer += Time.deltaTime;
@@ -76,6 +77,13 @@ public class movement : MonoBehaviour
         }
           
         if(canMoveAgain == true){
+            RaycastHit hit;
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit)) {
+                Vector3 objectHit = hit.point;
+                GameObject.FindWithTag("Player").transform.position = objectHit;
+            }
+
 
                 groundedPlayer = controller.isGrounded;
                 if (groundedPlayer && playerVelocity.y < 0)
