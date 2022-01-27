@@ -9,8 +9,8 @@ public class movement : MonoBehaviour
     private Vector3 playerVelocity;
     private bool groundedPlayer;
     private float playerSpeed = 2.0f;
-    private float jumpHeight = 1.0f;
-    private float gravityValue = -9.81f;
+    private float jumpHeight = 10.0f;
+    private float gravityValue = -3.81f;
     public Camera cam;
     private bool canMoveAgain = true;
     public Vector3 newCamAngle;
@@ -22,6 +22,7 @@ public class movement : MonoBehaviour
      public Vector3 start;
      public float percent ;
      private bool moving = false;
+     private bool firstMoveMade = false;
 
     void Start()
     {
@@ -39,17 +40,13 @@ public class movement : MonoBehaviour
 
      if (Input.GetMouseButtonDown(0)){ // if left button pressed...
             print("click");
+            firstMoveMade = true;
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit)){
                  Vector3 objectHit = hit.point + (hit.normal);// +  GetComponent<Collider>().bounds.size);
-
-                 //print("clicked" + hit.normal + hit.normal +  GetComponent<Collider>().bounds.size);
-                //GameObject.FindWithTag("me").transform.position = objectHit;
                 
-                
-                newCamAngle = hit.normal;//(gameObject.transform.position - hit.point).normalized;
-                //cam.transform.rotation = Quaternion.LookRotation (forward, Vector3.up);
+                newCamAngle = hit.normal;
 
                 
                 canMoveAgain = false;
@@ -57,7 +54,7 @@ public class movement : MonoBehaviour
                 start = gameObject.transform.position;
                 goal = objectHit;
                 Difference = goal - start;
-                seconds = 3.0f;
+                seconds = 2.0f;
                 timer = 0.0f;
             }
         }
@@ -65,7 +62,6 @@ public class movement : MonoBehaviour
               print("move");
                 canMoveAgain = true;    
           }
-        cam.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 0.75f, gameObject.transform.position.z);
 
         if(timer <= seconds){
             timer += Time.deltaTime;
@@ -75,6 +71,9 @@ public class movement : MonoBehaviour
             }
             gameObject.transform.position = start + Difference * percent;
         }
+         
+                cam.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 0.75f, gameObject.transform.position.z);
+
           
         if(canMoveAgain == true){
             RaycastHit hit;
