@@ -22,11 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< Updated upstream
 63020
-=======
-59727
->>>>>>> Stashed changes
 Successfully changed project path to: /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer
 /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,11 +54,7 @@ Successfully changed project path to: /Users/justking14/Documents/GitHub/Topics-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 96.65 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 102.75 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -77,7 +69,6 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56650
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -91,27 +82,11 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1510ms)
 		BeginReloadAssembly (128ms)
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000944 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 98.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.612 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1613ms)
-		BeginReloadAssembly (161ms)
->>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-<<<<<<< Updated upstream
 		EndReloadAssembly (1224ms)
 			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -126,42 +101,18 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (4ms)
 				ProcessInitializeOnLoadAttributes (539ms)
 				ProcessInitializeOnLoadMethodAttributes (191ms)
-=======
-		EndReloadAssembly (1284ms)
-			LoadAssemblies (157ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (932ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (48ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (575ms)
-				ProcessInitializeOnLoadMethodAttributes (205ms)
->>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002156 seconds.
-=======
-Registered in 0.002025 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -183,7 +134,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.181 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3184ms)
@@ -207,31 +157,6 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (153ms)
 				ProcessInitializeOnLoadAttributes (1628ms)
 				ProcessInitializeOnLoadMethodAttributes (104ms)
-=======
-- Completed reload, in  2.992 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2994ms)
-		BeginReloadAssembly (243ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (2500ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1817ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (1536ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
->>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -240,7 +165,6 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-<<<<<<< Updated upstream
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -248,15 +172,6 @@ Unloading 3219 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 25 unused Assets / (70.3 KB). Loaded Objects now: 3682.
 Memory consumption went from 288.7 MB to 288.7 MB.
 Total: 10.463250 ms (FindLiveObjects: 0.193916 ms CreateObjectMapping: 0.081708 ms MarkObjects: 10.066875 ms  DeleteObjects: 0.119459 ms)
-=======
-Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3219 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 25 unused Assets / (71.9 KB). Loaded Objects now: 3682.
-Memory consumption went from 288.8 MB to 288.7 MB.
-Total: 10.855666 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.078958 ms MarkObjects: 10.327292 ms  DeleteObjects: 0.149917 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -270,7 +185,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<< Updated upstream
   Time since last request: 377084.774012 seconds.
   path: Assets/hookshot.cs
   artifactKey: Guid(217c8306357d74614849bcf32c20faba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -285,31 +199,11 @@ Start importing Assets/hookshot.cs using Guid(217c8306357d74614849bcf32c20faba) 
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.002109 seconds.
-=======
-  Time since last request: 320693.135934 seconds.
-  path: Assets/movement.cs
-  artifactKey: Guid(33e69c9b4b945400db7ff00f907c09c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/movement.cs using Guid(33e69c9b4b945400db7ff00f907c09c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a546a8751c76736055aa3b71b1f8c621') in 0.086791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 126.031080 seconds.
-  path: Assets/movement.cs
-  artifactKey: Guid(33e69c9b4b945400db7ff00f907c09c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/movement.cs using Guid(33e69c9b4b945400db7ff00f907c09c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16b9e61ac7a2c82b81a47fc450d74aa') in 0.001942 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002122 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -331,7 +225,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.304 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3306ms)
@@ -361,46 +254,11 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-=======
-- Completed reload, in  3.228 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3230ms)
-		BeginReloadAssembly (326ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (45ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (2648ms)
-			LoadAssemblies (118ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1594ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (1317ms)
-				ProcessInitializeOnLoadMethodAttributes (118ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3685.
 Memory consumption went from 293.3 MB to 293.3 MB.
-<<<<<<< Updated upstream
 Total: 9.805291 ms (FindLiveObjects: 0.160500 ms CreateObjectMapping: 0.076417 ms MarkObjects: 9.479791 ms  DeleteObjects: 0.087292 ms)
-=======
-Total: 10.227292 ms (FindLiveObjects: 0.197542 ms CreateObjectMapping: 0.077916 ms MarkObjects: 9.847208 ms  DeleteObjects: 0.103083 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -415,20 +273,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002280 seconds.
-=======
-Registered in 0.002163 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -450,7 +300,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.028 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3030ms)
@@ -480,46 +329,11 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-=======
-- Completed reload, in  3.552 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3555ms)
-		BeginReloadAssembly (356ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (47ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (2911ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (1798ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (1509ms)
-				ProcessInitializeOnLoadMethodAttributes (134ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3688.
 Memory consumption went from 293.6 MB to 293.5 MB.
-<<<<<<< Updated upstream
 Total: 10.283625 ms (FindLiveObjects: 0.178667 ms CreateObjectMapping: 0.080542 ms MarkObjects: 9.928625 ms  DeleteObjects: 0.094500 ms)
-=======
-Total: 10.467208 ms (FindLiveObjects: 0.228917 ms CreateObjectMapping: 0.093500 ms MarkObjects: 10.014958 ms  DeleteObjects: 0.128250 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -534,20 +348,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.001943 seconds.
-=======
-Registered in 0.002467 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -569,7 +375,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.168 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3170ms)
@@ -604,42 +409,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.2 KB). Loaded Objects now: 3691.
 Memory consumption went from 293.8 MB to 293.8 MB.
 Total: 9.422667 ms (FindLiveObjects: 0.161833 ms CreateObjectMapping: 0.074875 ms MarkObjects: 9.095916 ms  DeleteObjects: 0.088625 ms)
-=======
-- Completed reload, in  3.256 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3258ms)
-		BeginReloadAssembly (353ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (50ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (2644ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1629ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (1386ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3691.
-Memory consumption went from 293.8 MB to 293.8 MB.
-Total: 9.991917 ms (FindLiveObjects: 0.257125 ms CreateObjectMapping: 0.081625 ms MarkObjects: 9.522709 ms  DeleteObjects: 0.128792 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -654,20 +423,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.001960 seconds.
-=======
-Registered in 0.002060 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -689,7 +450,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.213 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3216ms)
@@ -724,42 +484,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3694.
 Memory consumption went from 294.1 MB to 294.0 MB.
 Total: 10.492833 ms (FindLiveObjects: 0.221875 ms CreateObjectMapping: 0.082667 ms MarkObjects: 10.032250 ms  DeleteObjects: 0.154209 ms)
-=======
-- Completed reload, in  3.194 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3196ms)
-		BeginReloadAssembly (303ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2623ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1617ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (1379ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3694.
-Memory consumption went from 294.1 MB to 294.0 MB.
-Total: 10.128459 ms (FindLiveObjects: 0.249625 ms CreateObjectMapping: 0.077250 ms MarkObjects: 9.708625 ms  DeleteObjects: 0.091917 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -774,20 +498,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002465 seconds.
-=======
-Registered in 0.002360 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -809,7 +525,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.071 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3074ms)
@@ -844,42 +559,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3697.
 Memory consumption went from 294.3 MB to 294.2 MB.
 Total: 9.706750 ms (FindLiveObjects: 0.170125 ms CreateObjectMapping: 0.077209 ms MarkObjects: 9.366834 ms  DeleteObjects: 0.091042 ms)
-=======
-- Completed reload, in  3.371 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3373ms)
-		BeginReloadAssembly (302ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (42ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2801ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1707ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (1450ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3697.
-Memory consumption went from 294.3 MB to 294.2 MB.
-Total: 9.944833 ms (FindLiveObjects: 0.237166 ms CreateObjectMapping: 0.083500 ms MarkObjects: 9.501917 ms  DeleteObjects: 0.120541 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -894,20 +573,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002311 seconds.
-=======
-Registered in 0.002746 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -929,7 +600,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  2.947 seconds
 Domain Reload Profiling:
 	ReloadAssembly (2949ms)
@@ -959,46 +629,11 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-=======
-- Completed reload, in  3.362 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3364ms)
-		BeginReloadAssembly (328ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (49ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (2767ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (1672ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (1388ms)
-				ProcessInitializeOnLoadMethodAttributes (136ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3700.
 Memory consumption went from 294.6 MB to 294.5 MB.
-<<<<<<< Updated upstream
 Total: 9.442000 ms (FindLiveObjects: 0.170625 ms CreateObjectMapping: 0.075416 ms MarkObjects: 9.097708 ms  DeleteObjects: 0.097292 ms)
-=======
-Total: 10.789750 ms (FindLiveObjects: 0.378000 ms CreateObjectMapping: 0.161250 ms MarkObjects: 10.124625 ms  DeleteObjects: 0.124417 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1013,20 +648,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002394 seconds.
-=======
-Registered in 0.002232 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -1048,7 +675,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.254 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3256ms)
@@ -1083,42 +709,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3703.
 Memory consumption went from 294.8 MB to 294.7 MB.
 Total: 10.111000 ms (FindLiveObjects: 0.235250 ms CreateObjectMapping: 0.295791 ms MarkObjects: 9.490750 ms  DeleteObjects: 0.087875 ms)
-=======
-- Completed reload, in  3.215 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3217ms)
-		BeginReloadAssembly (308ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (44ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2638ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (331ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (1537ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (1274ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3703.
-Memory consumption went from 294.8 MB to 294.7 MB.
-Total: 10.411875 ms (FindLiveObjects: 0.216166 ms CreateObjectMapping: 0.082458 ms MarkObjects: 9.982250 ms  DeleteObjects: 0.127875 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1133,20 +723,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002280 seconds.
-=======
-Registered in 0.002485 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -1168,7 +750,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  2.974 seconds
 Domain Reload Profiling:
 	ReloadAssembly (2976ms)
@@ -1185,29 +766,10 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (45ms)
 			SetupLoadedEditorAssemblies (1426ms)
-=======
-- Completed reload, in  3.220 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3223ms)
-		BeginReloadAssembly (342ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (48ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (2596ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1539ms)
->>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-<<<<<<< Updated upstream
 				BeforeProcessingInitializeOnLoad (109ms)
 				ProcessInitializeOnLoadAttributes (1191ms)
 				ProcessInitializeOnLoadMethodAttributes (92ms)
@@ -1222,22 +784,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3706.
 Memory consumption went from 295.1 MB to 295.0 MB.
 Total: 9.901042 ms (FindLiveObjects: 0.173417 ms CreateObjectMapping: 0.080291 ms MarkObjects: 9.567417 ms  DeleteObjects: 0.078709 ms)
-=======
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (1300ms)
-				ProcessInitializeOnLoadMethodAttributes (101ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3706.
-Memory consumption went from 295.1 MB to 295.0 MB.
-Total: 10.270958 ms (FindLiveObjects: 0.219959 ms CreateObjectMapping: 0.080209 ms MarkObjects: 9.845375 ms  DeleteObjects: 0.123416 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1252,20 +798,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002010 seconds.
-=======
-Registered in 0.002492 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -1287,7 +825,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.079 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3081ms)
@@ -1322,42 +859,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3709.
 Memory consumption went from 295.3 MB to 295.2 MB.
 Total: 10.458500 ms (FindLiveObjects: 0.184625 ms CreateObjectMapping: 0.080375 ms MarkObjects: 10.084959 ms  DeleteObjects: 0.107250 ms)
-=======
-- Completed reload, in  3.181 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3184ms)
-		BeginReloadAssembly (320ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (44ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (2608ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (1565ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (1244ms)
-				ProcessInitializeOnLoadMethodAttributes (156ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.2 KB). Loaded Objects now: 3709.
-Memory consumption went from 295.3 MB to 295.3 MB.
-Total: 9.685584 ms (FindLiveObjects: 0.197583 ms CreateObjectMapping: 0.076458 ms MarkObjects: 9.327375 ms  DeleteObjects: 0.082917 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1372,20 +873,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002342 seconds.
-=======
-Registered in 0.002574 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -1407,7 +900,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.036 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3038ms)
@@ -1442,42 +934,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3712.
 Memory consumption went from 295.6 MB to 295.5 MB.
 Total: 15.058834 ms (FindLiveObjects: 0.168958 ms CreateObjectMapping: 0.081125 ms MarkObjects: 14.699500 ms  DeleteObjects: 0.107542 ms)
-=======
-- Completed reload, in  3.200 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3202ms)
-		BeginReloadAssembly (332ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (43ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (2612ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1593ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (1336ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3712.
-Memory consumption went from 295.6 MB to 295.5 MB.
-Total: 10.493583 ms (FindLiveObjects: 0.183709 ms CreateObjectMapping: 0.077541 ms MarkObjects: 10.117125 ms  DeleteObjects: 0.113750 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1492,20 +948,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.001937 seconds.
-=======
-Registered in 0.001885 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -1527,7 +975,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.009 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3011ms)
@@ -1562,42 +1009,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (71.9 KB). Loaded Objects now: 3715.
 Memory consumption went from 295.9 MB to 295.8 MB.
 Total: 9.976792 ms (FindLiveObjects: 0.166458 ms CreateObjectMapping: 0.075416 ms MarkObjects: 9.630125 ms  DeleteObjects: 0.103750 ms)
-=======
-- Completed reload, in  3.398 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3400ms)
-		BeginReloadAssembly (325ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (47ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2802ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (327ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1758ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (1467ms)
-				ProcessInitializeOnLoadMethodAttributes (128ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3715.
-Memory consumption went from 295.9 MB to 295.8 MB.
-Total: 10.260334 ms (FindLiveObjects: 0.195708 ms CreateObjectMapping: 0.082083 ms MarkObjects: 9.869666 ms  DeleteObjects: 0.111458 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1617,7 +1028,6 @@ Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
@@ -1713,10 +1123,6 @@ Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/Git
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-=======
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
->>>>>>> Stashed changes
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
   at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Plugin/BoltCoreManifest.cs:11 
@@ -1737,7 +1143,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.083 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3085ms)
@@ -1772,42 +1177,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.2 KB). Loaded Objects now: 3723.
 Memory consumption went from 304.7 MB to 304.6 MB.
 Total: 9.939917 ms (FindLiveObjects: 0.183250 ms CreateObjectMapping: 0.080084 ms MarkObjects: 9.584792 ms  DeleteObjects: 0.090542 ms)
-=======
-- Completed reload, in  3.229 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3231ms)
-		BeginReloadAssembly (332ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (66ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2636ms)
-			LoadAssemblies (106ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1609ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (1348ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3718.
-Memory consumption went from 296.1 MB to 296.1 MB.
-Total: 9.982042 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.079292 ms MarkObjects: 9.529208 ms  DeleteObjects: 0.165208 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1822,20 +1191,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
 Registered in 0.002521 seconds.
-=======
-Registered in 0.002556 seconds.
->>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-=======
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
->>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in /Users/justking14/Documents/GitHub/Topics-In-Game-Research-Team-1/Joy Platformer/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Utilities/PackageVersionUtility.cs:31 
@@ -1857,7 +1218,6 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
 
 Mono: successfully reloaded assembly
-<<<<<<< Updated upstream
 - Completed reload, in  3.127 seconds
 Domain Reload Profiling:
 	ReloadAssembly (3129ms)
@@ -3692,42 +3052,6 @@ Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 21 unused Assets / (72.0 KB). Loaded Objects now: 3798.
 Memory consumption went from 312.3 MB to 312.2 MB.
 Total: 9.947125 ms (FindLiveObjects: 0.227459 ms CreateObjectMapping: 0.084458 ms MarkObjects: 9.536041 ms  DeleteObjects: 0.097958 ms)
-=======
-- Completed reload, in  3.310 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3312ms)
-		BeginReloadAssembly (324ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (42ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (2712ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1592ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (28ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (1301ms)
-				ProcessInitializeOnLoadMethodAttributes (142ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 1)
-Unloading 21 unused Assets / (72.1 KB). Loaded Objects now: 3721.
-Memory consumption went from 296.4 MB to 296.3 MB.
-Total: 11.010250 ms (FindLiveObjects: 0.368000 ms CreateObjectMapping: 0.331958 ms MarkObjects: 10.190958 ms  DeleteObjects: 0.118000 ms)
->>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
