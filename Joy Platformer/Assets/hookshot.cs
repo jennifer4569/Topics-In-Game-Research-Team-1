@@ -13,7 +13,9 @@ public class hookshot : MonoBehaviour{
             //print(hit);
             Vector3 objectHit = hit.point;
             GameObject.FindWithTag("Player").transform.position = objectHit;
-
+            
+            //Vector3 forward = (GameObject.FindWithTag("Player").transform.position - hit.point).normalized;
+            //GameObject.FindWithTag("Player").transform.rotation = Quaternion.LookRotation (forward, Vector3.up);
             // Do something with the object that was hit by the raycast.
         }
     }

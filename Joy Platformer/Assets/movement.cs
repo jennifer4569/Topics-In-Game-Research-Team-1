@@ -13,10 +13,20 @@ public class movement : MonoBehaviour
     private float gravityValue = -9.81f;
     public Camera cam;
     private bool canMoveAgain = true;
+    public Vector3 newCamAngle;
+    
+     public float seconds = 5;
+     public float timer;
+     public Vector3 goal;
+     public Vector3 Difference;
+     public Vector3 start;
+     public float percent ;
+     private bool moving = false;
 
     void Start()
     {
         controller = gameObject.AddComponent<CharacterController>();
+        
     }
     
     void subReset_Player_Speed() {
@@ -32,41 +42,64 @@ public class movement : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit)){
                  Vector3 objectHit = hit.point + (hit.normal);// +  GetComponent<Collider>().bounds.size);
-                 //gameobject.transform.position = objectHit;
-                 print("clicked" + hit.normal + hit.normal +  GetComponent<Collider>().bounds.size);
-                GameObject.FindWithTag("me").transform.position = objectHit;
-                canMoveAgain = false;
-                Invoke ("subReset_Player_Speed", 3);
 
-              // the object identified by hit.transform was clicked
-              // do whatever you want
+                 //print("clicked" + hit.normal + hit.normal +  GetComponent<Collider>().bounds.size);
+                //GameObject.FindWithTag("me").transform.position = objectHit;
+                
+                
+                newCamAngle = (gameObject.transform.position - hit.point).normalized;
+                //cam.transform.rotation = Quaternion.LookRotation (forward, Vector3.up);
+
+                
+                canMoveAgain = false;
+                moving = true;
+                start = gameObject.transform.position;
+                goal = objectHit;
+                Difference = goal - start;
+                seconds = 5.0f;
+                timer = 0.0f;
             }
+        }
+          if(Input.GetMouseButtonUp(0)){
+              print("move");
+                canMoveAgain = true;    
           }
+        cam.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 0.5f, gameObject.transform.position.z);
+
+        if(timer <= seconds){
+            timer += Time.deltaTime;
+            percent = timer/seconds;
+            if(percent > 0.9f){
+                cam.transform.rotation = Quaternion.LookRotation (newCamAngle, Vector3.up);
+            }
+            gameObject.transform.position = start + Difference * percent;
+        }
           
         if(canMoveAgain == true){
 
-        groundedPlayer = controller.isGrounded;
-            if (groundedPlayer && playerVelocity.y < 0)
-            {
-                playerVelocity.y = 0f;
-            }
-    
-            Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-            controller.Move(move * Time.deltaTime * playerSpeed);
-    
-            if (move != Vector3.zero)
-            {
-                gameObject.transform.forward = move;
-            }
-    
-            // Changes the height position of the player..
-            if (Input.GetButtonDown("Jump") && groundedPlayer)
-            {
-                playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
-            }
-    
-            playerVelocity.y += gravityValue * Time.deltaTime;
-            controller.Move(playerVelocity * Time.deltaTime);
+                groundedPlayer = controller.isGrounded;
+                if (groundedPlayer && playerVelocity.y < 0)
+                {
+                    playerVelocity.y = 0f;
+                }
+        
+                Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+                controller.Move(move * Time.deltaTime * playerSpeed);
+        
+                if (move != Vector3.zero)
+                {
+                    gameObject.transform.forward = move;
+                }
+        
+                // Changes the height position of the player..
+                if (Input.GetButtonDown("Jump") && groundedPlayer)
+                {
+                    playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+                }
+        
+                playerVelocity.y += gravityValue * Time.deltaTime;
+                print(playerVelocity.y);
+                controller.Move(playerVelocity * Time.deltaTime);
         }
         }
           
