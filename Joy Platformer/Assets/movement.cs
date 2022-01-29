@@ -21,8 +21,6 @@ public class movement : MonoBehaviour
      public Vector3 Difference;
      public Vector3 start;
      public float percent ;
-     private bool moving = false;
-     private bool firstMoveMade = false;
 
     void Start()
     {
@@ -40,7 +38,6 @@ public class movement : MonoBehaviour
 
      if (Input.GetMouseButtonDown(0)){ // if left button pressed...
             print("click");
-            firstMoveMade = true;
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit)){
@@ -50,7 +47,6 @@ public class movement : MonoBehaviour
 
                 
                 canMoveAgain = false;
-                moving = true;
                 start = gameObject.transform.position;
                 goal = objectHit;
                 Difference = goal - start;

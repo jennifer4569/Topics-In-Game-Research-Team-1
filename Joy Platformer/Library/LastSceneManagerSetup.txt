@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/hookshotTest2.unity
+- path: Assets/ChrisTest/ChrisTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
