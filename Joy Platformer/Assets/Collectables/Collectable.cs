@@ -23,8 +23,8 @@ public class Collectable : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        //******ALSO CHECK IF THIS IS PLAYER********
-        if(collectableManager.isLevel)
+       
+        if(collectableManager.isLevel && other.tag == "Player")
         {
             isCollected = true;
             gameObject.GetComponent<Renderer>().enabled = false; //hides mesh for now since we cannot destroy it
